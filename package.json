@@ -1,0 +1,22 @@
+{
+  "name": "my-firefox-devtools-theme",
+  "displayName": "my-Firefox Theme",
+  "description": "My VS Code theme based on the Mozilla Firefox' developer tools colors",
+  "version": "1.0.0",
+  "publisher": "Angus",
+  "engines": {
+    "vscode": "^1.10.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Firefox Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      }
+    ]
+  }
+}
